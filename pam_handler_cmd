@@ -1,0 +1,5 @@
+if [ -f /usr/bin/python3 ]; then 
+        python3  /opt/ICICA-ux/bin/pam_handler_cmd.py $@
+    else
+        echo "ERR: You need python3"
+    fi
